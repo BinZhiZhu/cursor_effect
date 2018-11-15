@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "烟花主题特效",
+  "version": "1.0.0.1",
+  "description": "鼠标点击烟花爆炸效果--demo",
+  "author": "binzhizhu",
+  "content_scripts": [{
+    "matches": ["*://*/*"],
+    "js": ["index.js"]
+  }]
+}
